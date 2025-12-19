@@ -2,19 +2,25 @@
 
 ## 📁 Project Structure
 
-littlelemon-capstone-backend/
-├── littlelemon/
-├── restaurant/
-│ ├── models.py
-│ ├── views.py
-│ ├── serializers.py
-│ └── urls.py
-├── static/
-├── templates/
-├── tests/
-├── db.sqlite3
-├── manage.py
-└── README.md
+littlelemon/
+├── manage.py                   # Django management script
+├── db.sqlite3                  # SQLite database
+├── littlelemon/               # Project configuration
+│   ├── settings.py            # Project settings
+│   ├── urls.py                # Main URL routing
+│   └── wsgi.py                # WSGI configuration
+├── restaurant/                # Restaurant app
+│   ├── models.py              # Menu and Booking models
+│   ├── views.py               # API views
+│   ├── serializers.py         # DRF serializers
+│   ├── urls.py                # App URL routing
+│   ├── admin.py               # Admin configuration
+│   └── static/                # Static files (images, CSS)
+├── templates/                 # HTML templates
+│   └── index.html             # Homepage
+└── tests/                     # Unit tests
+    ├── test_models.py         # Model tests
+    └── test_views.py          # View tests
 
 
 ## 🚀 Features
