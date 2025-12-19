@@ -2,25 +2,26 @@
 
 ## 📁 Project Structure
 
+```text
 littlelemon/
-├── manage.py                   # Django management script
-├── db.sqlite3                  # SQLite database
-├── littlelemon/               # Project configuration
-│   ├── settings.py            # Project settings
-│   ├── urls.py                # Main URL routing
-│   └── wsgi.py                # WSGI configuration
-├── restaurant/                # Restaurant app
-│   ├── models.py              # Menu and Booking models
-│   ├── views.py               # API views
-│   ├── serializers.py         # DRF serializers
-│   ├── urls.py                # App URL routing
-│   ├── admin.py               # Admin configuration
-│   └── static/                # Static files (images, CSS)
-├── templates/                 # HTML templates
-│   └── index.html             # Homepage
-└── tests/                     # Unit tests
-    ├── test_models.py         # Model tests
-    └── test_views.py          # View tests
+├── manage.py              # Django management script
+├── db.sqlite3             # SQLite database
+├── littlelemon/
+│   ├── settings.py        # Project settings
+│   ├── urls.py            # Main URL routing
+│   └── wsgi.py            # WSGI configuration
+├── restaurant/
+│   ├── models.py          # Menu and Booking models
+│   ├── views.py           # API views
+│   ├── serializers.py    # DRF serializers
+│   ├── urls.py            # App URL routing
+│   └── admin.py           # Admin configuration
+├── static/                # Static files
+├── templates/
+│   └── index.html         # Homepage
+└── tests/
+    ├── test_models.py
+    └── test_views.py
 
 
 ## 🚀 Features
