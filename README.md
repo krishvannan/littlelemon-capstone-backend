@@ -1,15 +1,21 @@
 # Little Lemon capstone Backend 
 
-# projet structure
+## 📁 Project Structure
 
-├── littlelemon/            # Project settings
-├── restaurant/             # App (models, views, serializers, urls)
-├── static/                 # Static assets
-├── templates/              # HTML templates
-├── tests/                  # Unit tests
-├── db.sqlite3              # SQLite database
-├── manage.py               # Django CLI
+littlelemon-capstone-backend/
+├── littlelemon/
+├── restaurant/
+│ ├── models.py
+│ ├── views.py
+│ ├── serializers.py
+│ └── urls.py
+├── static/
+├── templates/
+├── tests/
+├── db.sqlite3
+├── manage.py
 └── README.md
+
 
 ## 🚀 Features
 
